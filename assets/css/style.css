@@ -18,10 +18,16 @@ nav{
 	/*position: fixed;*/
 }
 
+.navbar{
+  margin-bottom: 0;
+}
+
+
 .navbar-default .navbar-nav>li>a{
-	color:#000;
+	color:black;
 	padding: 40px;
 }
+
 .navbar-brand{
 	color:#000;
 	padding:40px;
