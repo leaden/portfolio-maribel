@@ -11,50 +11,53 @@
 </head>
 <body>
 <nav class="navbar navbar-default">
-  <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#" id="logo">MARIBEL DIAZ</a>
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        
     </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">ABOUT ME</a></li>
-        <li><a href="#">SKILL</a></li>
-        <li><a href="#">PROYECTS</a></li>
-        <li><a href="#">CONTACT</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    <!-- Collection of nav links and other content for toggling -->
+    <div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class=""><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT ME</a></li>
+            <li><a href="#">SKILL</a></li>
+            <li><a href="#">PROYECTS</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+        </ul>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <a href="#" class="navbar-brand"><em>MARIBEL DIAZ</em></a>
+        </ul>
+    </div>
 </nav>
 <header>
 <div class="container-fluid">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
           <ol class="carousel-indicators">
-              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-              <li data-target="#myCarousel" data-slide-to="1"></li>
-              <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
           </ol>
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
          <div class="item active">
              <img src="assets/img/cafe.jpg" alt="" width="460" height="345">
              <div class="carousel-caption" class="img-responsive">
-             <p></p>
+             <p>"Un Pájaro posado en un árbol nunca tiene miedo a que la rama se rompa, porque su confianza no esta en la rama.Sino en sus propias alas."</p>
              </div>
          </div>
          <div class="item">
             <img src="assets/img/apple.jpg" alt="" width="460" height="345">
             <div class="carousel-caption" class="img-responsive">
-            <p></p>
+            <p>"Un Pájaro posado en un árbol nunca tiene miedo a que la rama se rompa, porque su confianza no esta en la rama.Sino en sus propias alas."</p>
             </div>
          </div>
          <div class="item">
@@ -70,7 +73,7 @@
 <div class="about-me">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-7 col-lg-7 col-xs-12 col-sm-12 text-center">
+      <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12 text-center">
         <h3><strong>ABOUT ME</strong></h3>
            <p>Soy una persona activa, responsable que trata día día de adquirir el mayor
            conocimiento posible, me gusta todo lo relacionado a la tecnología e investigación y
@@ -80,7 +83,7 @@
            técnicos tales como HTML, CSS, y JavaScript. Además de actitudes de trabajo en equipo. En relación a esto, cuento con la experiencia y los conocimiento técnicos necesarios
            además de habilidades blandas para desarrollar cualquier actividad.</p>
       </div>
-       <div class="col-md-5 col-lg-5 col-xs-12 col-sm-12 text-center">
+       <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12 text-center">
         <img src="assets/img/tiko-giorgadze-250881.jpg" class="img-responsive" class="img-rounded">
       </div>
     </div>
@@ -139,38 +142,59 @@
       </div>
     </div>
       <div class="row">
-       <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
-        <div class="thumbnail">
-          <img src="assets/img/labcar.png"  alt="" class="img-responsive img-rounded">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="assets/img/labcar.png" alt="...">
+      <div class="caption text-center">
+        <p><a href="#" class="btn btn-primary" role="button">WEB</a> <a href="#" class="btn btn-default" role="button">CODE</a></p>
+      </div>
+    </div>
+  </div>
+
+      <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="assets/img/lyft.png" alt="...">
+      <div class="caption text-center">
+        <p><a href="#" class="btn btn-primary" role="button">WEB</a> <a href="#" class="btn btn-default" role="button">CODE</a></p>
+      </div>
+    </div>
+  </div>
+      <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="assets/img/LabStudio.png" alt="...">
+      <div class="caption text-center">
+        <p><a href="#" class="btn btn-primary" role="button">WEB</a> <a href="#" class="btn btn-default" role="button">CODE</a></p>
+      </div>
+    </div>
+  </div>
      </div>
-        </div>
-      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
-        <div class="thumbnail">
-          <img src="assets/img/lyft.png" alt="" class="img-responsive img-rounded">
-        </div>
+     <div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="assets/img/labcar.png" alt="...">
+      <div class="caption text-center">
+        <p><a href="#" class="btn btn-primary" role="button">WEB</a> <a href="#" class="btn btn-default" role="button">CODE</a></p>
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
-        <div class="thumbnail">
-          <img src="assets/img/cafe.jpg" alt="" class="img-responsive img-rounded">
-        </div>
+    </div>
+  </div>
+
+      <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="assets/img/lyft.png" alt="...">
+      <div class="caption text-center">
+        <p><a href="#" class="btn btn-primary" role="button">WEB</a> <a href="#" class="btn btn-default" role="button">CODE</a></p>
       </div>
+    </div>
+  </div>
+      <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="assets/img/LabStudio.png" alt="...">
+      <div class="caption text-center">
+        <p><a href="#" class="btn btn-primary" role="button">WEB</a> <a href="#" class="btn btn-default" role="button">CODE</a></p>
+      </div>
+    </div>
+  </div>
      </div>
-        <div class="row">
-       <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
-        <div class="thumbnail">
-          <img  src="assets/img/labcar.png"  alt="" class="img-responsive img-rounded">
-     </div>
-        </div>
-      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
-        <div class="thumbnail">
-          <img  src="assets/img/lyft.png" alt="" class="img-responsive img-rounded">
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
-        <div class="thumbnail">
-          <img  src="assets/img/cafe.jpg" alt="" class="img-responsive img-rounded">
-        </div>
-      </div>
      </div>
   </div>
 </div>
