@@ -13,25 +13,26 @@ body, html{
 
 
 .navbar-default{
-  position: fixed;
-  border:none;
-  z-index: 1;
-  opacity: 0.6;
-  background-color:#510E53;
-  height: 100px;
-  width: 100%;
+    position: fixed;
+    border: none;
+    background-color: rgba(51, 51, 51, 0.58);
+    height: 100px;
+    width: 100%;
+    z-index: 9999;
 }
 
 .navbar-default .navbar-nav>li>a{
-	color:#fafafa;
+	color:#f2dede;
 	padding: 20px;
   font-size: 17px;
   margin-top: 20px;
 }
 
-.navbar-default .navbar-nav>li>a:hover{
-  color: white;
+.navbar-default .navbar-nav>li>a:hover {
+    color: #c29ec3;
+    background-color: transparent;
 }
+
 
 
 .carousel-inner > .item > img,
@@ -61,6 +62,7 @@ body, html{
 
   .about-me h2{
   	padding-top: 20px;
+    color: #fff;
   }
 
   .about-me p{
@@ -70,7 +72,7 @@ body, html{
 
   .about-me{
     opacity: 0.7;
-  	background-image: url(../img/abaut2.jpg);
+  	background-image: url(../img/cont.jpg);
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -83,10 +85,10 @@ body, html{
   }
 
   .about-me img{
-    width: 80%;
+    width: 70%;
     margin-top: 40px;
     border-radius: 15px 15px 15px 15px;
-    box-shadow:2px 2px 5px #A46FA6;
+    box-shadow:2px 2px 5px #9e9e9e;
   }
 
 
@@ -96,11 +98,11 @@ body, html{
   }
 
   .skill{
-    
     font-size:15px;
     padding: 30px;
     width: 100%;
     height: 100%;
+    z-index: -1px;
   }
 
   .skill i{
@@ -121,12 +123,14 @@ body, html{
   height: 500px;
   margin-top: -80px;
   border-radius: 15px 15px 15px 15px;
-  box-shadow:2px 2px 5px #A46FA6;
+  box-shadow:2px 2px 5px #9e9e9e;
 }
 
 .projects{
   	height:100%;
     position: relative;
+    margin-top: 30px;
+
 
 }
 
@@ -143,7 +147,7 @@ body, html{
 
 .thumbnail{
     border-radius: 15px 15px 15px 15px;
-    box-shadow:2px 2px 5px #A46FA6;
+    box-shadow:2px 2px 5px #9e9e9e;
 }
 
 .btn-primary {
@@ -171,7 +175,7 @@ body, html{
   height: 400px;
   width: 100%;
   border-radius: 15px 15px 15px 15px;
-  box-shadow:2px 2px 5px #A46FA6;
+  box-shadow:2px 2px 5px #9e9e9e;
 }
 
 .contact i{
